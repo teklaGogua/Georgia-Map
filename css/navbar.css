@@ -1,0 +1,42 @@
+.navbar {
+  float: left;
+  height: 80vh;
+  width: 25%;
+  font-size: 1.5rem;
+  background-color: #4b3075;
+  border-right: #32204f 0.5rem dashed;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.navbar h2 {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+nav ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+nav li {
+  color: white;
+  border-bottom: 2px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+nav li:hover {
+  background-color: #32204f;
+}
+
+nav div {
+  display: block;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
