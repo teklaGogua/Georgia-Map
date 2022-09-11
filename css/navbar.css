@@ -40,3 +40,22 @@ nav div {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .navbar {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 27rem;
+    border: none;
+    box-shadow: 0 0 15px 5px #32204f;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    font-size: small;
+  }
+}

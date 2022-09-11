@@ -29,3 +29,16 @@
 .fullInfo ul {
   padding: 1rem 2rem;
 }
+
+@media (max-width: 700px) {
+  .fullInfo img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .fullInfo {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+}
