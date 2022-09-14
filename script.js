@@ -1,18 +1,18 @@
 'use strict';
 
-const pages = document.querySelectorAll('.page');
+$(function () {
+  $(document).on('click', '.page', function () {
+    const pageIndex = $(`#${this.id}`).index();
+    let pageId = this.id;
 
-for (let i = 0; i < pages.length; i++) {
-  pages[i].addEventListener('click', function () {
-    if (i < 13) {
-      $('.displayPlace').load(`pages/${this.id}.html`);
-    } else {
-      i = i - 12;
-      $('.displayPlace').load(`pages/${pages[i].id}.html`);
+    if (pageIndex === 0) {
+      $('.displayPlace').load(`pages/${pageId}.html`);
+    } else if (pageIndex === 1) {
+      pageId = pageId.substring(0, pageId.length - 1);
+      $('.displayPlace').load(`pages/${pageId}.html`);
     }
-    pages.forEach(page => {
-      page.style.backgroundColor = '#4b3075';
-    });
-    pages[i].style.backgroundColor = '#32204f';
+
+    $('.page').css('background-color', '#4b3075');
+    $(this).css('background-color', '#32204f');
   });
-}
+});
