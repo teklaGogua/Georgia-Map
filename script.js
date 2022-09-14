@@ -13,6 +13,6 @@ $(function () {
     }
 
     $('.page').css('background-color', '#4b3075');
-    $(this).css('background-color', '#32204f');
+    $(`#${pageId}`).css('background-color', '#32204f');
   });
 });
