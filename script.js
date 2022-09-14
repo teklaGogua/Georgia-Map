@@ -1,5 +1,6 @@
 'use strict';
 
+$('.displayPlace').load(`pages/map.html`);
 $(function () {
   $(document).on('click', '.page', function () {
     const pageIndex = $(`#${this.id}`).index();
