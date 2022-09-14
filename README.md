@@ -5,7 +5,9 @@
 - [Overview](#overview)
   - [The project](#the-challenge)
   - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -23,12 +25,18 @@ Thanks to this app users are able to:
 - Solution URL: https://github.com/teklaGogua/Georgia-Map
 - Live Site URL: https://teklagogua.github.io/Georgia-Map/
 
+## My process
+
 ### Built with
 
-- JavaScript
-- JQuery
+- JavaScript, jQuery
 - CSS
 - HTML
+
+### Useful resources
+
+- [index()](https://www.w3schools.com/jquery/misc_index.asp) - This helped me to get index position of specified elements.
+- [AJAX load()](https://www.w3schools.com/jquery/jquery_ajax_load.asp) - This method loads data from a server and puts the returned data into the selected element.
 
 ## Author
 
